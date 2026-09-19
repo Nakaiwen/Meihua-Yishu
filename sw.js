@@ -1,6 +1,6 @@
 /* 梅花觀象：離線 app shell，僅快取明列的同來源靜態檔。 */
 'use strict';
-const VERSION='1.2.1-8ee91a6ed3a2';
+const VERSION='1.3.1-c6faa7ed9fa1';
 const PREFIX='meihua-shell-'+encodeURIComponent(self.registration.scope)+'-';
 const CACHE=PREFIX+VERSION;
 const ASSETS=['./index.html','./style.css','./engine.js','./app.js','./pwa.js','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png','./icons/apple-touch-icon.png'].map(p=>new URL(p,self.registration.scope).href);
